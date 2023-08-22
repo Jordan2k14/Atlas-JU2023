@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!--<title> Responsive Sidebar Menu  | CodingLab </title>-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+        <i class="fa fa-globe icon"></i>
+        <p class="logo_name">Atlas</p>
+        <i class='bx bx-menu' id="btn"></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+        <a href="index.html">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">Dashboard</span>
+        </a>
+         <span class="tooltip">Dashboard</span>
+      </li>
+      <li>
+       <a href="analytics.html">
+         <i class='bx bx-user' ></i>
+         <span class="links_name">Analytics</span>
+       </a>
+       <span class="tooltip">Analytics</span>
+     </li>
+    </ul>
+  </div>
+  <section class="home-section">
+    <iframe id="inlineFrameExample"
+    title="Inline Frame Example"
+    src="notebook.html"
+    style="height:100%;width:100%;position:absolute"
+    width="1900"
+    height="950"
+    frameBorder="0"
+    >
+    </iframe>
+  </section>
+  <script src="sidebar-changes.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <script src="analysis-results-utility.js"></script>
+
+</body>
+</html>
